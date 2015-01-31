@@ -5,13 +5,13 @@ Application allows you to watch how much RAM do SQL queries and stored procedure
 
 You just set the server's domain-name (IP address should work as well) and the value of the timer. The application will execute a "monitoring" query which returns the most RAM consuming query at the server.
 
-[queryRAMconsumption queries list screenshot](/img/qrc1.png?raw=true "queryRAMconsumption queries list screenshot")
+![queryRAMconsumption queries list screenshot](/img/qrc1.png?raw=true "queryRAMconsumption queries list screenshot")
 
 In that list there are most consuming queries at the moment of timer event. If there was a heavy one, it'll be marked with such note.
 
 The next screen shows how you can see the details of the heavy queries:
 
-[queryRAMconsumption heavy query details screenshot](/img/qrc2.png?raw=true "queryRAMconsumption heavy query details screenshot")
+![queryRAMconsumption heavy query details screenshot](/img/qrc2.png?raw=true "queryRAMconsumption heavy query details screenshot")
 
 Settings
 ========
